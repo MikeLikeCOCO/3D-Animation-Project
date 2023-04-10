@@ -10,7 +10,7 @@ public class DoorMech : MonoBehaviour
 	public float rotSpeed = 1f;
 
 	public bool doorBool;
-
+	private bool pressCheck;
 
 	void Start()
 	{
@@ -19,17 +19,21 @@ public class DoorMech : MonoBehaviour
 		
 	void OnTriggerStay(Collider col)
 	{
-		if(col.gameObject.tag == ("Player") && Input.GetKeyDown(KeyCode.E))
+		if(col.gameObject.tag == ("Player") && pressCheck)
 		{
 			if (!doorBool)
 				doorBool = true;
 			else
 				doorBool = false;
+				pressCheck = false;
 		}
 	}
 
 	void Update()
 	{
+		if(Input.GetKeyDown(KeyCode.E)) {
+			pressCheck = true;
+		}
 		if (doorBool)
 			transform.rotation = Quaternion.Lerp (transform.rotation, Quaternion.Euler (OpenRotation), rotSpeed * Time.deltaTime);
 		else

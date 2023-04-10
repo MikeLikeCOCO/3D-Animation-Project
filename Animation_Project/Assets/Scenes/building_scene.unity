@@ -3366,6 +3366,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3968165724070776552, guid: 2f9ac039a10be514dbfc03631d59a9c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6303657302456160578, guid: 2f9ac039a10be514dbfc03631d59a9c0, type: 3}
+      propertyPath: doorBool
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6303657302456160578, guid: 2f9ac039a10be514dbfc03631d59a9c0, type: 3}
+      propertyPath: rotSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6303657302456160578, guid: 2f9ac039a10be514dbfc03631d59a9c0, type: 3}
+      propertyPath: OpenRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6303657302456160578, guid: 2f9ac039a10be514dbfc03631d59a9c0, type: 3}
+      propertyPath: OpenRotation.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6303657302456160578, guid: 2f9ac039a10be514dbfc03631d59a9c0, type: 3}
+      propertyPath: OpenRotation.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f9ac039a10be514dbfc03631d59a9c0, type: 3}

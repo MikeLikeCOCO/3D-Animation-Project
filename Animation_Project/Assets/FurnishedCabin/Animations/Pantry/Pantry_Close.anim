@@ -7,7 +7,7 @@ AnimationClip:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Pantry_Close
-  serializedVersion: 7
+  serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -82,7 +82,6 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
-      isIntCurve: 0
     - serializedVersion: 2
       path: 305292916
       attribute: 4
@@ -90,7 +89,6 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
-      isIntCurve: 0
     pptrCurveMapping: []
   m_AnimationClipSettings:
     serializedVersion: 2
